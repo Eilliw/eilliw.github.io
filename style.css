@@ -3,9 +3,20 @@ h1 {
     color: rgb(0, 43, 128);
     font-family: Arial Narrow Bold;
     font-size: 100px;
+    background-color: white;
 }
-
+h2 {
+    background-color: yellowgreen;
+    
+}
 .team {
     text-align: center;
     width: 200px;
+}
+
+p{
+    background-color: coral;
+}
+.description {
+    font-style: italic;
 }
