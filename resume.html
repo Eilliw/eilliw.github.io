@@ -2,8 +2,40 @@
 
 <html>
     <head>
-        <title></title>
+        <title>Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $.get("nav.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        </script>
     </head>
-    <body>
+    <body style="background-color: aquamarine;">
+        <div id="nav-placeholder"></div>
+        
+        <h1>Willie Chuter</h1>
+        <p style="color: white;text-align:center;font-size:30px">
+            <b>email: williechuter@gmail.com &nbsp;&nbsp;&nbsp;&nbsp; phone: (512) 923-5914</b>
+        </p>
+        <div class="genlist">
+        <ul>
+            <li class="list_headers"><b>Education:</b></li>
+            <ul>
+                <li>Casis Elementary</li>
+                <li>O'Henry Middle School</li>
+                <li>Austin High School</li>
+            </ul>
+            <li class="list_headers"><b>Work Experience:</b></li>
+            <ul>
+                <li>GALA Games QA internship</li>
+                <li>H-E-B</li>
+            </ul>
+            <li class="list_headers"><b>Skills:</b></li>
+
+
+        </ul>
+        </div>
+
     </body>
 </html>

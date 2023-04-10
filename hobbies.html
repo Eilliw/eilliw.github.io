@@ -4,7 +4,14 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="style.css">
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $.get("nav.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        </script>
     </head>
     <body>
+        <div id="nav-placeholder"></div>
     </body>
 </html>

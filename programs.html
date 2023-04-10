@@ -4,7 +4,16 @@
     <head>
         <title></title>
         <link rel="stylesheet" href="style.css">
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script>
+            $.get("nav.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        </script>
     </head>
     <body>
+        <div id="nav-placeholder"></div>
+        <h1>Programs</h1>
+        <iframe src="https://www.reddit.com" frameborder="0"></iframe>
     </body>
 </html>

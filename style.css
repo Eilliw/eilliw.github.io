@@ -1,0 +1,17 @@
+
+
+.genlist{
+    background-color: orange;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.list_headers{
+    color: white;
+    font-size: 50px;
+}
+
+.bullets{
+    color: white
+}
