@@ -15,3 +15,12 @@
 .bullets{
     color: white
 }
+
+.programs{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.inlinelist{
+    display: inline;
+}
